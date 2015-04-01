@@ -3,10 +3,21 @@ ExScaliburViz
 
 Reporting and visualization tool for ExScaliburSMD and ExScaliburGMD
 
+## Requirements
+
+You should have R >=3.0.0 installed! In addition, the following packages are required:
+
+* yaml (>= 2.1.13)
+* shiny (>=0.11.1)
+* shinythemes (>=1.0.1)
+* ggplot2
+* reshape2
+* plyr
+* tools
+
 ## Getting Started
 
 You will need to clone the ExScaliburViz repository:
-
 
 ```
 #!bash
