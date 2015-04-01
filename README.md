@@ -5,7 +5,15 @@ Reporting and visualization tool for ExScaliburSMD and ExScaliburGMD
 
 ## Getting Started
 
-After you have successfully run an ExScalibur project, you will need to move the `report` directory to your local computer. Once, you have moved the directory, you will need to download the `ExScaliburViz` zip file from the github web page and unzip it to you local computer.
+You will need to clone the ExScaliburViz repository:
+
+
+```
+#!bash
+
+git clone https://kmhernan@bitbucket.org/cribioinformatics/exscaliburviz.git
+```
+
 
 ## Running ExScaliburViz
 
@@ -13,7 +21,18 @@ ExScaliburViz runs in two modes: command line or loading through a source file.
 
 ### Command Line Interface
 
-blah blah
+```
+$ ./ExScaliburVizCLI.R 
+[CRI] [INFO] [2015-04-01 15:44:58] - --------------------------------------------------------------
+[CRI] [INFO] [2015-04-01 15:44:58] - ExScaliburViz.R - Dynamic reporting of ExScalibur Projects
+[CRI] [INFO] [2015-04-01 15:44:58] - Kyle Hernandez, Center for Research Informatics, University of Chicago
+[CRI] [INFO] [2015-04-01 15:44:58] - --------------------------------------------------------------
+
+Usage: ExScaliburViz.R --config <config.yml> --type [SMD|GMD]
+	config	The FULL path to the configuration YAML file (must be the full path!!)
+	type	Either 'SMD' or 'GMD' depending on the type of ExScalibur pipeline
+```
+
 
 ### R Source File
 
